@@ -1,0 +1,83 @@
+1)OR gate --Code :-  
+entity lab1_20es062 is 
+    Port ( a_62 : in  STD_LOGIC; 
+           b_62 : in  STD_LOGIC; 
+           c_62 : out  STD_LOGIC);  
+end lab1_20es062  ;  
+ 
+architecture Behavioral of lab1_20es062  is 
+ 
+begin 
+c_62<= a_62 or b_62; 
+ 
+end Behavioral; 
+ 
+ 
+2) --And gate  code :-  
+ 
+entity lab1_20es062 is 
+    Port ( a_62 : in  STD_LOGIC; 
+           b_62 : in  STD_LOGIC; 
+           c_62 : out  STD_LOGIC); 
+end lab1_20es062  ; 
+ 
+architecture Behavioral of lab1_20es062  is 
+ 
+begin 
+c_62<= a_62 and b_62;  
+ 
+end Behavioral; 
+ 
+ 
+ 
+ 
+ 
+ 
+  ---- 
+ 
+Nand gate  
+entity lab1_20es062 is 
+Port ( a_62 : in  STD_LOGIC; 
+b_62 : in  STD_LOGIC; 
+c_62 : out  STD_LOGIC); 
+end lab1_20es062  ; 
+architecture Behavioral of lab1_20es062  is 
+begin 
+c_62<= a_62 nand b_62; 
+end Behavioral; 
+4) Nor gate  
+entity lab1_20es062 is 
+Port ( a_62 : in  STD_LOGIC; 
+b_62 : in  STD_LOGIC; 
+c_62 : out  STD_LOGIC); 
+end lab1_20es062  ; 
+architecture Behavioral of lab1_20es062  is 
+begin 
+c_62<= a_62 nor  b_62;  
+end Behavioral; 
+5) xnor gate  
+entity lab1_20es062 is 
+Port ( a_62 : in  STD_LOGIC; 
+b_62 : in  STD_LOGIC; 
+c_62 : out  STD_LOGIC); 
+end lab1_20es062  ; 
+architecture Behavioral of lab1_20es062  is 
+begin 
+c_62<= a_62 xnor  b_62; 
+end Behavioral; 
+9 
+1
+ 0  
+XOR gate  
+entity lab1_20es062 is 
+    Port ( a_62 : in  STD_LOGIC; 
+           b_62 : in  STD_LOGIC; 
+           c_62 : out  STD_LOGIC); 
+end lab1_20es062  ;  
+ 
+architecture Behavioral of lab1_20es062  is 
+ 
+begin 
+c_62<= a_62 xor  b_62; 
+ 
+end Behavioral;
